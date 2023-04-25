@@ -10,6 +10,7 @@ import (
 	"runtime"
 	"strings"
 
+	bra "github.com/bassiebal/bra/cmd"
 	"github.com/grafana/grafana-plugin-sdk-go/build/utils"
 	"github.com/grafana/grafana-plugin-sdk-go/experimental/e2e"
 	ca "github.com/grafana/grafana-plugin-sdk-go/experimental/e2e/certificate_authority"
@@ -19,7 +20,6 @@ import (
 	"github.com/grafana/grafana-plugin-sdk-go/internal"
 	"github.com/magefile/mage/mg"
 	"github.com/magefile/mage/sh"
-	bra "github.com/unknwon/bra/cmd"
 	"github.com/urfave/cli"
 )
 

@@ -1,6 +1,6 @@
 # default configuration created by the `mage watch` command.
 # this file can be edited and should be checked into source control.
-# see https://github.com/unknwon/bra/blob/master/templates/default.bra.toml for more configuration options.
+# see https://github.com/bassiebal/bra/blob/master/templates/default.bra.toml for more configuration options.
 [run]
 init_cmds = [
   ["mage", "-v", "build:backend"],
